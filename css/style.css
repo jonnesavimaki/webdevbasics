@@ -1,68 +1,146 @@
+html {
+  background: linear-gradient(135deg, #07111f 0%, #030914 50%, #000000 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 100%;
+}
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  justify-self: center;
 }
 
-header {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    justify-self: center;
+header h1 {
+  font-family: "Unbounded", sans-serif;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 header nav li {
-    display: flex;
-    flex-wrap: nowrap;
-
+  display: flex;
+  flex-wrap: nowrap;
 }
 header nav li a {
-       text-decoration: none;
-       color: black;
-
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 200;
 }
 
 main {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    width: 80%;
-    justify-self: center
+  margin-top: 100px;
+  width: 80%;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+main h2 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 600;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    opacity: 0.8;
-    
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 200;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #2563eb;
 }
 
 .btn-general {
-    padding: 10px 20px;
-    align-self: center;
-    background-color: #efefef;
-    margin: 0 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
+  padding: 10px 20px;
+  align-self: center;
+  background-color: #2563eb;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #3b82f6;
+  box-shadow: 0 4px 14px #2463ea40;
 }
 
 #btn-cta {
-    display: inline-block;
-    margin: 0;
-    background-color: #00aede;
-    color: white;
-    transition: all 0.2s;
-
+  display: inline-block;
+  margin: 0;
+  background-color: #2563eb;
+  color: white;
+  transition: all 0.2s;
+  border: 1px solid #3b82f6;
+  box-shadow: 0 4px 14px #2463ea40;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 200;
 }
 
-#btn-cta:hover, #btn-cta:focus {
-    transform: translate(-1px,1px);
-    background-color: #0098c2;
-    box-shadow: 2px 2px 8px #00000029;
+#btn-cta:hover,
+#btn-cta:focus {
+  transform: translate(-1px, 1px);
+  background-color: #3b82f6;
+}
+
+#FAQ {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #172b44;
+  background-color: #0b1626;
+  box-shadow: 5px 5px 10px #00000029;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.card h3 {
+  background-color: #1c2d82;
+  color: white;
+  padding: 13px;
+  margin: 0;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+}
+
+.card p {
+  padding: 13px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.card li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
 }
