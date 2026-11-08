@@ -186,7 +186,6 @@ footer a:visited {
   font-family: "Unbounded", sans-serif;
   font-weight: 200;
   border-radius: 5px;
-
 }
 
 #submit-btn:hover,
@@ -221,41 +220,49 @@ header::before {
   header nav {
     flex-direction: column;
     width: 95%;
-
   }
+
   header nav h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2rem;
   }
+
   header nav ul {
     flex-direction: column;
     margin: 0;
     padding: 0;
   }
+
   header nav ul li {
     width: 100%;
     justify-content: center;
     margin-bottom: 8px !important; 
   }
+
   .hero-content {
     flex-direction: column;
     align-items: center;
   }
+
   .hero-content figure img {
     margin-top: 20px !important;
   }
+
   .secondary-content {
     flex-direction: column !important;
     align-items: center;
   }
+
   .secondary-content figure {
     justify-self: center;
     align-items: center;
   }
+
   .secondary-content figure img {
     justify-self: center;
   }
+
   .btn-general {
     width: 100% !important;
     text-align: center;
@@ -309,7 +316,6 @@ header::before {
   padding: 0;
   text-align: center;
   font-size: 0.7rem;
-
 }
 
 .secondary-content figure img {
@@ -317,4 +323,5 @@ header::before {
   height: 168px;
   justify-self: flex-end;
   filter: drop-shadow(0 0 15px #ffffff40);
+  border-radius: 5px;
 }
