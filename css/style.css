@@ -166,7 +166,7 @@ footer a:visited {
   margin-bottom: 20px;
 }
 
-.joinform input, textarea {
+.joinform input, .joinform textarea {
   margin-bottom: 5px;
   padding: 10px;
   font-family: "Poppins", sans-serif;
