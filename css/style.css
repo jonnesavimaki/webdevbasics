@@ -7,6 +7,7 @@ html {
 }
 body {
   font-family: Arial, sans-serif;
+  
 }
 header {
   display: flex;
@@ -268,6 +269,7 @@ header::before {
     text-align: center;
     box-sizing: border-box;
   }
+
 }
 
 .hero-content {
@@ -324,4 +326,37 @@ header::before {
   justify-self: flex-end;
   filter: drop-shadow(0 0 15px #ffffff40);
   border-radius: 5px;
+}
+
+.dhmo-usecases {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dhmo-usecases article {
+  width: 100%;
+}
+
+.dhmo-usecases table {
+  border-collapse: collapse;
+  width: 80%;
+  align-self: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+
+.dhmo-usecases td {
+  border: white solid 1px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+#yes {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+#no {
+   background-color: rgba(0, 128, 0, 0.849);
 }
